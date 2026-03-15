@@ -181,8 +181,10 @@ flowchart TD
 ├── README.md
 ├── LICENSE
 ├── docs/
-│   └── harness-first-agentic-development-method.md
+│   ├── harness-first-agentic-development-method.md
+│   └── how-to-use-this-method-with-ai.md
 └── templates/
+    ├── AI_PROJECT_KICKOFF_PROMPT_TEMPLATE.md
     ├── PRODUCT_CONTEXT_TEMPLATE.md
     ├── PROJECT_JOURNEY_TEMPLATE.md
     └── SESSION_HANDOFF_PROMPT_TEMPLATE.md
@@ -208,6 +210,16 @@ flowchart TD
 3. 再写 `Session Handoff Prompt`
 4. 然后开始具体产品开发
 
+### 如果你是把这套方法交给 AI 使用
+
+最直接的入口是：
+
+1. 看使用指南
+   [How to Use This Method With AI](./docs/how-to-use-this-method-with-ai.md)
+2. 复制启动 prompt 模板
+   [AI Project Kickoff Prompt Template](./templates/AI_PROJECT_KICKOFF_PROMPT_TEMPLATE.md)
+3. 再把你的项目路径、仓库地址和 3 个上下文文件路径替换进去发给 AI
+
 ## 设计原则
 
 - **人类定义目标，agent 承担执行**
@@ -231,6 +243,8 @@ flowchart TD
 ## 文档入口
 
 - [正式方法论文档](./docs/harness-first-agentic-development-method.md)
+- [AI 使用指南](./docs/how-to-use-this-method-with-ai.md)
+- [AI 启动 Prompt 模板](./templates/AI_PROJECT_KICKOFF_PROMPT_TEMPLATE.md)
 - [Product Context 模板](./templates/PRODUCT_CONTEXT_TEMPLATE.md)
 - [Project Journey 模板](./templates/PROJECT_JOURNEY_TEMPLATE.md)
 - [Session Handoff Prompt 模板](./templates/SESSION_HANDOFF_PROMPT_TEMPLATE.md)
