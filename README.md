@@ -1,6 +1,6 @@
 # Harness-First Agentic Development
 
-[English](./README.md) | [简体中文](./README.zh-CN.md)
+[English](./README.md) | [Chinese](./README.zh-CN.md)
 
 An **AI product development framework** for **agentic engineering**, **AI coding workflows**, and **human-in-the-loop software delivery**.
 
@@ -78,6 +78,14 @@ If the AI is following this method correctly, it should:
 
 In other words, **the human should not need to manually copy templates before work starts**.
 
+### PRs welcome
+
+If you want to improve this framework, PRs are welcome.
+
+- See [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Small, focused documentation improvements are especially helpful
+- Additions that make AI-first project setup clearer are strongly encouraged
+
 ---
 
 ## The Method in One View
@@ -124,7 +132,12 @@ Used only for narrow, well-defined issues:
 .
 ├── README.md
 ├── README.zh-CN.md
+├── CONTRIBUTING.md
 ├── LICENSE
+├── assets/
+│   ├── social-preview.png
+│   ├── social-preview.svg
+│   └── social-preview-design.md
 ├── docs/
 │   └── harness-first-agentic-development-method.md
 └── templates/
@@ -138,6 +151,8 @@ Used only for narrow, well-defined issues:
 
 - [Formal method document](./docs/harness-first-agentic-development-method.md)
 - [Kickoff prompt template](./templates/AI_PROJECT_KICKOFF_PROMPT_TEMPLATE.md)
+- [Contribution guide](./CONTRIBUTING.md)
+- [Social preview asset](./assets/social-preview.png)
 
 The templates remain in the repo as **optional reference material**.
 They are for AI initialization or advanced customization, not the default first step for the human user.
