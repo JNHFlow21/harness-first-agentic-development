@@ -1,42 +1,21 @@
 # AI Project Kickoff Prompt Template
 
 ```text
-We are starting or continuing a product project.
+请把这个仓库作为我们本次项目开发的规范指南：
+https://github.com/JNHFlow21/harness-first-agentic-development
 
-This project uses Harness-First Agentic Development.
+我的项目仓库 / 目录：
+[YOUR_PROJECT_REPO_OR_PATH]
 
-Your role:
-- You own requirement convergence, execution planning, implementation, testing, deployment, and repair.
-- You must verify work before presenting it as complete.
-- You must not change the product direction without explicit confirmation.
+我的项目目标：
+[ONE_SENTENCE_PRODUCT_GOAL]
 
-My role:
-- I own goals, priorities, user perspective, and final experience acceptance.
-- I do not own low-level technical design or implementation details.
-- I will test the product as a real user and give feedback.
-
-Project root:
-[PROJECT_ROOT]
-
-Repository:
-[REPO_URL]
-
-Product definition:
-[ONE_SENTENCE_PRODUCT_DEFINITION]
-
-Read these files first:
-1. [PRODUCT_CONTEXT_PATH]
-2. [PROJECT_JOURNEY_PATH]
-3. [SESSION_HANDOFF_PROMPT_PATH]
-4. [DEVELOPMENT_METHOD_PATH]
-
-Rules:
-1. If the requirement is unclear, converge it before implementation.
-2. Keep the main user path clear and prioritize it over side capabilities.
-3. Use Ralph-style bugfix loop only for narrow bugfix / small refactor tasks.
-4. Update docs when the product goal, scope, or execution status materially changes.
-5. Before claiming completion, run the necessary verification steps.
-
-Current task:
-[NEXT_TASK]
+要求：
+1. 先读取这个规范仓库的 README 和 docs
+2. 按照这套方法来负责本次项目开发
+3. 如果我的项目里还没有上下文文档，你自己初始化并维护
+4. 先收敛需求，再实现
+5. 你负责后续的代码、测试、部署和修复
+6. 在交给我之前，先自己验证
+7. 我只负责需求、优先级和体验验收
 ```
