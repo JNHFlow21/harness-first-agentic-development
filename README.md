@@ -1,6 +1,6 @@
 # Harness-First Agentic Development
 
-[English](./README.md) | [Chinese](./README.zh-CN.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
 An **AI product development framework** for **agentic engineering**, **AI coding workflows**, and **human-in-the-loop software delivery**.
 
